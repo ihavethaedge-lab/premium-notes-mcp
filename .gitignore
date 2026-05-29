@@ -2,3 +2,5 @@ node_modules/
 notes.json
 notes.db
 .env
+saas-db.json
+chrome-profile/

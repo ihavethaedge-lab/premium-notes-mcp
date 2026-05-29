@@ -1,0 +1,17 @@
+{
+  "name": "proto-mcp-server",
+  "version": "1.0.0",
+  "description": "Prototype JSON Notes MCP Server",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "proto-mcp-server": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "start-saas": "node mock-cloud-server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.1"
+  }
+}
